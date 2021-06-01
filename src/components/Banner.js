@@ -35,7 +35,7 @@ const Banner = () => {
                 <li><Link to="">gallery</Link></li>
             </ul>
             <div className="cart ">
-                <Link className= 'my-order' to="#">my order </Link>
+                <Link className= 'my-order' to="#">my order <i className='fas fa-shopping-cart'></i> </Link>
             </div>
         </nav>
 

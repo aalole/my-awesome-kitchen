@@ -211,9 +211,10 @@ nav ul li a {
 .ktc-text-inner p {
   font-size: 22px;
   line-height: 25px;
-  font-family: roboto, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+  font-family: Helvetica, sans-serif;
   padding-top: 10px;
   text-align: center;
+  font-weight: bold;
 }
 
 /* owl-carousel */
@@ -437,7 +438,11 @@ nav ul li a {
     display: flex;
     align-items: center;
   }
-
+  .ktc-text-inner p {
+    font-size: 42px;
+    line-height: 52px;
+    text-align: left;
+  }
   .ktc-text-inner p {
     text-align: left;
   }
@@ -447,7 +452,7 @@ nav ul li a {
   }
 
   .ktc-text-inner {
-    width: 450px;
+    width: 500px;
   }
 
   .ktc-about-left {
