@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* kitchen banner */
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/banner-bg.png')center/cover no-repeat;
+  min-height: 80vh;
+}
+
+.banner-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sos-ico {
+  width: 20px;
+  height: 20px;
+  font-weight: 200;
+}
+
+.app-logo {
+  width: 84px;
+  height: 33px;
+  opacity: 1;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  order: -1;
+}
+
+nav ul li {
+  padding: 10px auto 10px 20px;
+  margin-bottom: 10px;
+
+}
+
+.header-social,
+.logo,
+.banner-nav-item {
+  padding-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.banner-text {
+  padding: 20px;
+  color: #eee;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.banner-text h3 {
+  text-align: center;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 4px #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.banner-text p {
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 25px #00000080;
+  opacity: 1;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+/* toggle button on mobile */
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.my-order,
+.order-now {
+  padding: 15px;
+  color: #eee;
+  border: none;
+  border-radius: 20px;
+  display: block;
+  margin: 20px auto;
+  text-decoration: none;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.my-order {
+  background-color: none;
+  border: 1px solid #eee;
+}
+
+.order-now {
+  background-color: #d4b254;
+  width: 228px;
+}
+
+/* bar and toggle style */
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 4px;
+  margin: 5px;
+  background: #fff;
+  transition: transform 1s ease, opacity 2s ease;
+}
+
+.btn {
+  padding: 2px;
+  display: inline-block;
+  border: 1.5px solid #d4b254;
+  cursor: pointer;
+  align-self: center;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-7px, -8px);
+}
+
+/* kitchen about */
+.kitchen-about {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  overflow-x: hidden
+}
+
+/* .ktc-about-left{
+  overflow-x: hidden;
+} */
+.ktc-text {
+  padding: 20px;
+}
+
+.ktc-text-inner article {
+  color: gray;
+  font-size: 13px;
+  line-height: 22px;
+  padding-top: 30px;
+
+}
+
+.ktc-about-link {
+  padding: 10px;
+  background-color: #d4b254;
+  border: none;
+  border-radius: 20px;
+  width: 211px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.ktc-text-inner h3 {
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-size: 13px;
+  color: #d4b254;
+  line-height: 22px;
+}
+
+.ktc-text-inner p {
+  font-size: 22px;
+  line-height: 25px;
+  font-family: roboto, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* owl-carousel */
+.carousel {
+  background-color: #eee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.carousel-inner {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.carousel-text {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+  color: #222;
+}
+
+.carousel-text h4 {
+  font-size: 13px;
+  color: #d4b254;
+  letter-spacing: 1.3px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.carousel-text p {
+  font-size: 32px;
+  line-height: 42px;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #222222
+}
+
+.carousel-text blockquote {
+  padding-top: 18px;
+  line-height: 32px;
+  color: #777;
+}
+
+.testimonial-name {
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+#faqs-btn {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #d4b254;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: none;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+/* gallery */
+#gallery {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.gallery-images .img img {
+  width: 100%;
+}
+
+.gallery-images .img {
+  margin: auto auto 10px auto
+}
+
+.gallery-anchor {
+  text-decoration: none;
+  padding: 10px;
+  color: #eee;
+  background-color: #d4b254;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  width: 184px;
+  display: block;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+
+#gallery h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 32px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  line-height: 42px;
+  color: #222;
+  opacity: 1;
+}
+
+/* footer */
+#footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('./images/kitchen-about-bg.png')center/cover no-repeat;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.hr {
+  border-top: 0.2px solid #777;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.hr img {
+  margin-top: -15px;
+}
+
+#logo-line {
+  text-align: center;
+  color: white;
+}
+
+.footer-items {
+  padding-left: 30px;
+}
+
+.footer-items a {
+  text-decoration: none;
+  color: #eee;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0.8
+}
+
+.footer-items ul {
+  list-style-type: none;
+}
+
+.footer-items ul li {
+  padding-top: 7px;
+}
+
+.f-item h5 {
+  font-size: 24px;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.ft-soc-img {
+  width: 40px;
+  height: 40px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 30px ;
+}
+
+.copyright small {
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1.3px;
+  font-size: 13px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+/* for icons at header and footer */
+.social-icon li {
+  display: inline-block;
+  margin-left: 7px;
+}
+
+@media screen and (min-width: 576px) {
+
+  /* footer responsive desktop */
+  .footer-items {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  /* gallery responsive desktop */
+  .gallery-images {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .img {
+    padding: 10px;
+  }
+
+  /* about responsive desktop */
+  .kitchen-about {
+    display: flex;
+    align-items: center;
+  }
+
+  .ktc-text-inner p {
+    text-align: left;
+  }
+
+  .ktc-text {
+    padding-left: 60px;
+  }
+
+  .ktc-text-inner {
+    width: 450px;
+  }
+
+  .ktc-about-left {
+    width: 50%
+  }
+
+  .ktc-about-left img {
+    width: 100%;
+  }
+
+  .ktc-tex {
+    width: 50%;
+  }
+
+  .ktc-about-link {
+    margin: 10px auto;
+
+  }
+  /* carousel responsive */
+  #faqs-btn {
+    width: 400px;
+  }
+
+  /* ########### BANNER DESKTOP ############ */
+  .logo {
+    display: block
+  }
+
+  #togle-btn {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+
+  .nav-item1 li,
+  .nav-item2 li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .banner-text p {
+    font-size: 52px;
+    width: 800px;
+    margin: auto;
+  }
+
+  .logo {
+    order: 0;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .banner-text p {
+    line-height: 60px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
